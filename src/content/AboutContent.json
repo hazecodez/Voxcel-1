@@ -1,0 +1,16 @@
+{
+  "title": "About VOXCEL",
+  "text": "At VOXCEL, we are passionate about keeping you connected with the latest mobile accessories, smartwatches, and expert repair services. Based in Abu Dhabi, we specialize in hardware and software solutions, ensuring your devices perform at their best. With a commitment to quality and customer satisfaction, VOXCEL is your one-stop destination for all mobile needs.",
+  "section": [
+    {
+      "title": "Why Antd?",
+      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
+      "icon": "notes.svg"
+    },
+    {
+      "title": "Why styled-components?",
+      "content": "Styled Components gives you total control over your components.",
+      "icon": "notes.svg"
+    }
+  ]
+}
