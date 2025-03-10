@@ -15,8 +15,10 @@ import {
   StyledRow,
   ButtonWrapper,
 } from "./styles";
+import { Img } from "../../common/Img";
 
 const ContentBlock = ({
+  color,
   icon,
   title,
   content,
@@ -43,12 +45,16 @@ const ContentBlock = ({
           direction={direction}
         >
           <Col lg={11} md={11} sm={12} xs={24}>
-            <SvgIcon src={icon} width="100%" height="100%" />
+            {/* <SvgIcon src={icon} width="100%" height="100%" /> */}
+            {
+              icon ? <Img src={icon} width="100%" height="100%"/>: ""
+            }
+            
           </Col>
           <Col lg={11} md={11} sm={11} xs={24}>
             <ContentWrapper>
-              <h6>{t(title)}</h6>
-              <Content>{t(content)}</Content>
+              <h6 style={{color:color}}>{t(title)}</h6>
+              <Content style={{color:color}}>{t(content)}</Content>
               {/* {direction === "right" ? (
                 <ButtonWrapper>
                   {typeof button === "object" &&

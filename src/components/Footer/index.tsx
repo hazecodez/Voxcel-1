@@ -46,7 +46,6 @@ const Footer = ({ t }: { t: TFunction }) => {
     );
   };
 
-
   return (
     <>
       <FooterSection>
@@ -79,8 +78,7 @@ const Footer = ({ t }: { t: TFunction }) => {
                   onMouseOver={(e) => {
                     const target = e.target as HTMLElement; // Typecast here
                     target.style.color = "#4CBB17";
-                    target.style.textDecoration =
-                      "wavy underline #4CBB17";
+                    target.style.textDecoration = "wavy underline #4CBB17";
                     target.style.textUnderlinePosition = "under";
                   }}
                   onMouseOut={(e) => {
@@ -109,8 +107,7 @@ const Footer = ({ t }: { t: TFunction }) => {
                   onMouseOver={(e) => {
                     const target = e.target as HTMLElement; // Typecast here
                     target.style.color = "#4CBB17";
-                    target.style.textDecoration =
-                      "wavy underline #4CBB17";
+                    target.style.textDecoration = "wavy underline #4CBB17";
                     target.style.textUnderlinePosition = "under";
                   }}
                   onMouseOut={(e) => {
@@ -138,8 +135,7 @@ const Footer = ({ t }: { t: TFunction }) => {
                   onMouseOver={(e) => {
                     const target = e.target as HTMLElement; // Typecast here
                     target.style.color = "#4CBB17";
-                    target.style.textDecoration =
-                      "wavy underline #4CBB17";
+                    target.style.textDecoration = "wavy underline #4CBB17";
                     target.style.textUnderlinePosition = "under";
                   }}
                   onMouseOut={(e) => {
@@ -148,25 +144,26 @@ const Footer = ({ t }: { t: TFunction }) => {
                     target.style.textDecoration = "none";
                   }}
                 >
-                  Opp. INDEX CHARCOAL, Musaffah - 37, Musaffah Industrial - Abu Dhabi
+                  Opp. INDEX CHARCOAL, Musaffah - 37, Musaffah Industrial - Abu
+                  Dhabi
                 </a>
               </div>
 
-              
               {/* <a href="mailto:l.qqbadze@gmail.com">
                 <Chat>{t(`Let's Chat`)}</Chat>
               </a> */}
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
-              <Title>{t("Products")}</Title>
+              <Title>{t("Services")}</Title>
               <Large to="/">{t("All Mobile Accessories")}</Large>
               <Large to="/">{t("Smartwatches")}</Large>
               <Large to="/">{t("Sim Cards")}</Large>
-            </Col>
-            <Col lg={6} md={6} sm={12} xs={12}>
-              <Empty />
               <Large to="/">{t("Mobile Sales  and Service")}</Large>
               <Large to="/">{t("Hardwaring and Softwaring")}</Large>
+            </Col>
+            <Col lg={6} md={6} sm={12} xs={12}>
+              <Title>{t("Social")}</Title>
+
               <div style={{ display: "flex", gap: "24px" }}>
                 <SocialLink href="https://wa.link/8zkq1t" src="wp.svg" />
                 <SocialLink
@@ -232,7 +229,7 @@ const Footer = ({ t }: { t: TFunction }) => {
                   src="logo.png"
                   aria-label="homepage"
                   width="150px"
-                  height="44px"
+                  height="40px"
                 />
               </LogoContainer>
             </NavLink>
