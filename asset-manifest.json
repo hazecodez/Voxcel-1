@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Voxcel-1/static/css/main.18dfb25f.css",
+    "main.js": "/Voxcel-1/static/js/main.d2954cf0.js",
+    "static/js/907.8b3e5e8d.chunk.js": "/Voxcel-1/static/js/907.8b3e5e8d.chunk.js",
+    "static/js/281.ee8a156d.chunk.js": "/Voxcel-1/static/js/281.ee8a156d.chunk.js",
+    "static/js/722.186e3727.chunk.js": "/Voxcel-1/static/js/722.186e3727.chunk.js",
+    "static/js/202.c3b7b8fd.chunk.js": "/Voxcel-1/static/js/202.c3b7b8fd.chunk.js",
+    "static/js/758.df18b2ed.chunk.js": "/Voxcel-1/static/js/758.df18b2ed.chunk.js",
+    "index.html": "/Voxcel-1/index.html",
+    "main.18dfb25f.css.map": "/Voxcel-1/static/css/main.18dfb25f.css.map",
+    "main.d2954cf0.js.map": "/Voxcel-1/static/js/main.d2954cf0.js.map",
+    "907.8b3e5e8d.chunk.js.map": "/Voxcel-1/static/js/907.8b3e5e8d.chunk.js.map",
+    "281.ee8a156d.chunk.js.map": "/Voxcel-1/static/js/281.ee8a156d.chunk.js.map",
+    "722.186e3727.chunk.js.map": "/Voxcel-1/static/js/722.186e3727.chunk.js.map",
+    "202.c3b7b8fd.chunk.js.map": "/Voxcel-1/static/js/202.c3b7b8fd.chunk.js.map",
+    "758.df18b2ed.chunk.js.map": "/Voxcel-1/static/js/758.df18b2ed.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18dfb25f.css",
+    "static/js/main.d2954cf0.js"
+  ]
+}
