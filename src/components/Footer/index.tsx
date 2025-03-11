@@ -21,7 +21,6 @@ interface SocialLinkProps {
 }
 
 const Footer = ({ t }: { t: TFunction }) => {
-
   const SocialLink = ({ href, src }: SocialLinkProps) => {
     return (
       <a
@@ -138,10 +137,6 @@ const Footer = ({ t }: { t: TFunction }) => {
                   Dhabi
                 </a>
               </div>
-
-              {/* <a href="mailto:l.qqbadze@gmail.com">
-                <Chat>{t(`Let's Chat`)}</Chat>
-              </a> */}
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
               <Title>{t("Services")}</Title>
@@ -167,43 +162,6 @@ const Footer = ({ t }: { t: TFunction }) => {
               </div>
             </Col>
           </Row>
-          {/* <Row justify="space-between">
-            <Col lg={10} md={10} sm={12} xs={12}>
-              <Empty />
-              <Language>{t("Address")}</Language>
-              <Para>Rancho Santa Margarita</Para>
-              <Para>2131 Elk Street</Para>
-              <Para>California</Para>
-            </Col>
-            <Col lg={8} md={8} sm={12} xs={12}>
-              <Title>{t("Company")}</Title>
-              <Large to="/">{t("About")}</Large>
-              <Large to="/">{t("Blog")}</Large>
-              <Large to="/">{t("Press")}</Large>
-              <Large to="/">{t("Careers & Culture")}</Large>
-            </Col>
-            <Col lg={6} md={6} sm={12} xs={12}>
-              <Label htmlFor="select-lang">{t("Language")}</Label>
-              <LanguageSwitchContainer>
-                <LanguageSwitch onClick={() => handleChange("en")}>
-                  <SvgIcon
-                    src="united-states.svg"
-                    aria-label="homepage"
-                    width="30px"
-                    height="30px"
-                  />
-                </LanguageSwitch>
-                <LanguageSwitch onClick={() => handleChange("es")}>
-                  <SvgIcon
-                    src="spain.svg"
-                    aria-label="homepage"
-                    width="30px"
-                    height="30px"
-                  />
-                </LanguageSwitch>
-              </LanguageSwitchContainer>
-            </Col>
-          </Row> */}
         </Container>
       </FooterSection>
       <Extra>
@@ -223,22 +181,6 @@ const Footer = ({ t }: { t: TFunction }) => {
                 />
               </LogoContainer>
             </NavLink>
-            {/* <FooterContainer>
-              
-              <SocialLink
-                href="https://twitter.com/Adrinlolx"
-                src="twitter.svg"
-              />
-              <SocialLink
-                href="https://www.linkedin.com/in/lasha-kakabadze/"
-                src="linkedin.svg"
-              />
-              <SocialLink
-                href="https://medium.com/@lashakakabadze/"
-                src="medium.svg"
-              />
-              
-            </FooterContainer> */}
           </Row>
         </Container>
       </Extra>
