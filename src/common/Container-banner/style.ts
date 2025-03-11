@@ -4,9 +4,9 @@ export const StyledContainerBanner = styled("div")<{
   border?: boolean;
 }>`
   position: relative;
-  width: 100vw; /* Full width */
-  max-width: unset; /* Removes max width limit */
-  margin: 0; /* Removes centering effect */
+  width: 100vw; 
+  max-width: unset;
+  margin: 0; 
   padding: 0 0px;
   border-top: ${(p) => (p.border ? "1px solid #CDD1D4" : "")};
   background-image: url("your-image-url.jpg");
