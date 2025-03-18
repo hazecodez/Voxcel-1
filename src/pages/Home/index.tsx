@@ -3,13 +3,13 @@ import IntroContent from "../../content/IntroContent.json";
 import MiddleBlockContent from "../../content/MiddleBlockContent.json";
 import AboutContent from "../../content/AboutContent.json";
 import ContainerBanner from "../../common/Container-banner";
-import ReviewCarousel from "../../components/Review";
-import Gallery from "../../components/CollectionGallery";
 
 const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
 const Container = lazy(() => import("../../common/Container"));
 const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
 const ContentBlock = lazy(() => import("../../components/ContentBlock"));
+const ReviewCarousel = lazy(() => import("../../components/Review"));
+const Gallery = lazy(() => import("../../components/CollectionGallery"));
 
 const Home = () => {
   return (
@@ -51,9 +51,9 @@ const Home = () => {
           id="about"
           color="#000000"
         />
-        <Gallery/>        
+        <Gallery />
       </Container>
-      <ReviewCarousel/>
+      <ReviewCarousel />
     </>
   );
 };
